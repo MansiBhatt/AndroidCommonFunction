@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_height">300dp</dimen>
+    <dimen name="nav_header_icon">96dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">52dp</dimen>
+    <dimen name="activity_vertical_margin">52dp</dimen>
+    <dimen name="margin_top">25dp</dimen>
+
+    <dimen name="text_size_large">45sp</dimen>
+    <dimen name="video_width">720dp</dimen>
+    <dimen name="video_height">1080dp</dimen>
+    <dimen name="ten_dp">10dp</dimen>
+    <dimen name="pref_store_image_height">180dp</dimen>
+    <dimen name="min_header_height">102dp</dimen>
+    <dimen name="header_height">150dp</dimen>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- SwipeRefreshLayout : srl_refresh -->
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/srl_refresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <!-- ProgressLayout : progressLayout -->
+        <com.nguyenhoanglam.progresslayout.ProgressLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/progressLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:emptyContentTextColor="@color/black"
+            app:emptyContentTextSize="14sp"
+            app:emptyImageHeight="200dp"
+            app:emptyImageWidth="200dp"
+            app:errorButtonTextColor="?attr/colorPrimaryDark"
+            app:errorButtonTextSize="12sp"
+            app:errorContentTextColor="@color/black"
+            app:errorContentTextSize="14sp"
+            app:errorImageHeight="200dp"
+            app:errorImageWidth="200dp"
+            app:loadingProgressBarColor="?attr/colorPrimaryDark"
+            app:loadingProgressBarRadius="150dp"
+            app:loadingProgressBarSpinWidth="10dp">
+
+            <GridView
+                android:id="@+id/gridview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_columnSpan="5"
+                android:background="@color/white"
+                android:numColumns="2" />
+        </com.nguyenhoanglam.progresslayout.ProgressLayout>
+    </android.support.v4.widget.SwipeRefreshLayout>
+</LinearLayout>

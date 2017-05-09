@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/ic_vc_logo">
+
+    <target
+        android:name="cloud"
+        android:animation="@animator/path" />
+    <target
+        android:name="letterC"
+        android:animation="@animator/path" />
+
+   <!-- <target
+        android:name="spellC"
+        android:animation="@animator/path" />-->
+
+   <!-- <target
+        android:name="viitor"
+        android:animation="@animator/path" />-->
+
+</animated-vector>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <com.github.skydoves.ElasticButton
+        android:id="@+id/btn_hash_map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        app:button_backgroundColor="@color/colorPrimary"
+        app:button_labelSize="14"
+        app:button_labelText="@string/hash_map" />
+
+    <com.github.skydoves.ElasticButton
+        android:id="@+id/btn_hash_table"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        app:button_backgroundColor="@color/colorPrimary"
+        app:button_labelSize="14"
+        app:button_labelText="@string/hash_table" />
+
+    <com.github.skydoves.ElasticButton
+        android:id="@+id/btn_array_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        app:button_backgroundColor="@color/colorPrimary"
+        app:button_labelSize="14"
+        app:button_labelText="@string/array_list" />
+
+    <com.github.skydoves.ElasticButton
+        android:id="@+id/btn_string_array"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        app:button_backgroundColor="@color/colorPrimary"
+        app:button_labelSize="14"
+        app:button_labelText="@string/string_array" />
+
+</LinearLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+
+    <TextView
+        android:id="@+id/txtHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:text="@string/heading"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <com.github.skydoves.ElasticButton
+        android:id="@+id/btnBrowse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        app:button_backgroundColor="@color/colorAccent"
+        app:button_labelSize="12"
+        app:button_labelStyle="bold"
+        app:button_labelText="Browse Image" />
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:background="@drawable/border"
+        android:padding="5dp"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3">
+
+        <com.github.skydoves.ElasticButton
+            android:id="@+id/btnUploadImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="1"
+            app:button_backgroundColor="@color/colorAccent"
+            app:button_labelSize="12"
+            app:button_labelStyle="bold"
+            app:button_labelText="Upload Image" />
+
+
+        <com.github.skydoves.ElasticButton
+            android:id="@+id/btnUploadAudio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="1"
+            app:button_backgroundColor="@color/colorAccent"
+            app:button_labelSize="12"
+            app:button_labelStyle="bold"
+            app:button_labelText="Upload Audio" />
+
+
+        <com.github.skydoves.ElasticButton
+            android:id="@+id/btnUploadVideo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            app:button_backgroundColor="@color/colorAccent"
+            app:button_labelSize="12"
+            app:button_labelStyle="bold"
+            app:button_labelText="Upload Video" />
+    </LinearLayout>
+
+
+</LinearLayout>

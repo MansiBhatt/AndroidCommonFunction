@@ -1,0 +1,249 @@
+<resources>
+    <string name="app_name">VC Android Library</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!--Google Maps Key-->
+    <string name="google_maps_key">AIzaSyA96BxzoGHNe23F258J9qfvbLQyClN-WJo</string>
+    <string name="server_client_id">548780996965-0uqkm0sjura8eh8pvk8m45u70u1571c3.apps.googleusercontent.com</string>
+    <!--End Google Map-->
+    <!--FB App ID-->
+    <string name="facebook_app_id">188355158312600</string>
+    <!--End FB APP-->
+    <!-- AdMob ad unit id -->
+    <string name="banner_footer">ca-app-pub-5717827144758520/8297887893</string>
+    <string name="interstitial_full_screen_ad">ca-app-pub-5717827144758520/3588486695</string>
+    <!--End AdMob-->
+    <!--Twitter Keys-->
+    <string name="twitter_callback">http://www.jadu-coaching.ch//</string>
+    <string name="twitter_consumer_key">D2dpbn5EbF4WeIXpUZ8Kg6j3m</string>
+    <string name="twitter_consumer_secret">Rvx9VbYpKvJ0NFe47y81fiPVIEJveNqsVu5fdqHjoQ08NRlevl</string>
+    <string name="twitter_oauth_verifier">oauth_verifier</string>
+    <!--End Twitter-->
+    <!--Developer Details-->
+    <string name="developer">Janki Doshi</string>
+    <string name="dev_id">janki.doshi@iprojectlab.com</string>
+    <!--End Dev Details-->
+    <!--Language-->
+    <string name="select_language">Select %s</string>
+    <string name="english">English</string>
+    <string name="urdu">Urdu</string>
+    <string name="gujarati">Gujarati</string>
+    <string name="hindi">Hindi</string>
+    <!--End Language-->
+    <!--Multi lingual-->
+    <string name="PS_alReadyTicker">You have already a ticket in My Tickets queue. Are you sure you want to cancel it?</string>
+    <string name="LOG_WAP_TC">"1. It is prohibited to capture picture/video of vehicle when passenger is inside the vehicle.
+
+2. It is prohibited to capture picture/video while driving.
+
+3. You can only report traffic violation that occurred in India.
+
+4. You can only report specific traffic violation types.
+
+5. Legal action might be taken if this service is misused."</string>
+    <!--End Multilingual-->
+
+    <!--Empty Field Error-->
+    <string name="error_name">Enter Name</string>
+    <string name="error_age">Enter Age</string>
+    <string name="error_email">Enter email</string>
+    <!--End Empty Field-->
+    <string name="drawerActivity">Drawer Activity</string>
+    <string name="bottomActivity">Bottom Activity</string>
+    <string name="WELCOME">We are Excited you are here....</string>
+    <string name="ABOUT">This app is simply collection of different small tutorials which can be collectively used</string>
+    <string name="Guide">It covers most of useful demo for reuse</string>
+    <string name="name">Name</string>
+    <string name="age">Age</string>
+    <string name="email">Email</string>
+    <string name="save">Save</string>
+    <string name="sort">Sort</string>
+    <string name="del_all">Delete All</string>
+
+
+    <!-- Button labels -->
+    <string name="map_cluster">Map Cluster</string>
+    <string name="vector_drawable">Vector Drawable</string>
+    <string name="multi_language">Multi Language</string>
+    <string name="realm_db">Realm Db</string>
+    <string name="video_thumbnail">Video Thumbnail</string>
+    <string name="place_picker">Place Picker</string>
+    <string name="heading">Upload files to Google Drive</string>
+    <string name="upload">Upload Files</string>
+    <string name="exit_dialog">Are you sure you want to exit?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="login">login</string>
+    <string name="google_signIn">Google SignIn</string>
+    <string name="view_pager">View Pager Activity</string>
+    <string name="search">Search</string>
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+    <string name="title_intro">This application is collection of \n different small applications</string>
+    <string name="status">Status :</string>
+    <string name="payment_amount">Payment Amount :</string>
+    <string name="payment_id">Payment Id :</string>
+
+    <string name="string_array">String Array</string>
+    <string name="array_list">Array List</string>
+    <string name="hash_map">Hash Map</string>
+    <string name="hash_table">Hash Table</string>
+    <string name="country">Country</string>
+    <string name="collection">Collection Types</string>
+    <string name="countrylist">List of Country</string>
+    <!--County String array-->
+    <string name="country_afghan">Afghanistan</string>
+    <string name="country_bhutan">Bhutan</string>
+    <string name="country_china">China</string>
+    <string name="country_georg">Georgia</string>
+    <string name="country_in">India</string>
+    <string name="country_jap">Japan</string>
+    <string name="country_kuwa">Kuwait</string>
+    <string name="country_leb">Lebanon</string>
+    <string name="country_mal">Malaysia</string>
+    <string name="country_nep">Nepal</string>
+    <string name="country_oman">Oman</string>
+    <string name="country_pak">Pakistan</string>
+    <string name="country_qatar">Qatar</string>
+    <string name="country_rus">Russia</string>
+    <string name="country_sigap">Singapore</string>
+    <string name="country_taiw">Taiwan</string>
+    <string name="country_uzb">Uzbekistan</string>
+    <string name="country_viet">Vietnam</string>
+    <string name="country_yema">Yemen</string>
+    <string name="listbyarray">List of Countries by String Array</string>
+    <string name="listbyarraylist">List of Countries by Array List</string>
+    <string name="listbyhashmap">List of Countries by Hash Map</string>
+    <string name="listbyhashtable">List of Countries by Hash Table</string>
+    <string name="loading">Loading....</string>
+    <string name="feature_not_supported">Vector Drawable Animation is not supported in your Device</string>
+    <string name="invalid_email">Please Enter Valid Email Address</string>
+    <string name="datalist">Saved data are as below</string>
+    <string name="logged_out_msg">Successfully Logged Out</string>
+    <string name="error_internet">Please Connect Internet</string>
+    <string name="error_no_support">Doesnot Support Twiiter</string>
+    <string name="confirm">Confirm</string>
+    <string name="error_twiiter">Please enter your Twitter E-mail Id</string>
+    <string name="bar_chart_data">Bar Chart Data</string>
+    <string name="chart">Chart</string>
+    <string name="bar_chart">Bar Chart</string>
+    <string name="pie_chart">Pie Chart</string>
+    <string name="line_chart">Line Chart</string>
+    <string name="by_vc">By Viitorcloud Technologies</string>
+    <string name="data_logger">Data Logger</string>
+    <string-array name="countries">
+        <item>@string/country_afghan</item>
+        <item>@string/country_bhutan</item>
+        <item>@string/country_china</item>
+        <item>@string/country_georg</item>
+        <item>@string/country_in</item>
+        <item>@string/country_jap</item>
+        <item>@string/country_kuwa</item>
+        <item>@string/country_leb</item>
+        <item>@string/country_mal</item>
+        <item>@string/country_nep</item>
+        <item>@string/country_oman</item>
+        <item>@string/country_pak</item>
+        <item>@string/country_qatar</item>
+        <item>@string/country_rus</item>
+        <item>@string/country_sigap</item>
+        <item>@string/country_taiw</item>
+        <item>@string/country_uzb</item>
+        <item>@string/country_viet</item>
+        <item>@string/country_yema</item>
+    </string-array>
+    <!--End String Array-->
+
+    <!--DATA LOGGER-->
+    <string name="strawberry1">Strawberry 1</string>
+    <string name="strawberry2">Strawberry 2</string>
+    <string name="strawberry3">Strawberry 3</string>
+    <string name="strawberry4">Strawberry 4</string>
+    <string name="strawberry5">Strawberry 5</string>
+
+    <string name="s_id">ID</string>
+    <string name="s_weight">Weight (g)</string>
+    <string name="s_sunlight">SunLight Given</string>
+    <string name="s_compost">Compost Laid (g)</string>
+    <string name="strt">START</string>
+    <string name="nos">Number of seconds</string>
+    <string name="s_water">Water (ml)</string>
+
+    <string name="hint_id">1111 – 9999</string>
+    <string name="hint_weight">0 – 10000</string>
+    <string name="hint_sunlight">0–4</string>
+    <string name="hint_compost">0–1000</string>
+    <string name="hint_water">0–200</string>
+
+    <string name="btn_save_log">Save Log Entry</string>
+    <string name="btn_show_log">Show Log Entries</string>
+    <string name="btn_return">Return to Strawberry 1</string>
+    <string name="btn_return_2">Return to Strawberry 2</string>
+    <string name="btn_return_3">Return to Strawberry 3</string>
+    <string name="btn_return_4">Return to Strawberry 4</string>
+    <string name="btn_return_5">Return to Strawberry 5</string>
+
+    <string name="pay_now">Pay Now</string>
+    <string name="btn_prev">Previous</string>
+    <string name="btn_next">Next</string>
+    <string name="btn_home">Home</string>
+    <string name="position">position</string>
+    <string name="log_dialog">Do you want to save log?</string>
+    <string name="success_msg">Data Successfully Added</string>
+    <string name="msg_already_exist">Record Already Exist!</string>
+    <string name="error_water">Enter water between 0 to 200</string>
+    <string name="error_empty_water">Enter water in ml</string>
+    <string name="error_weight">Enter weight between 0 to 10000</string>
+    <string name="error_compost">Enter compost between 0 to 1000</string>
+    <string name="error_empty_compost">Enter laid compost</string>
+    <string name="error_sunlight">Enter sunlight between 0 to 4</string>
+    <string name="error_empty_sunlight">Enter given Sunlight</string>
+    <string name="error_empty_weight">Enter weight</string>
+    <string name="error_id">Enter Id between 1111 to 9999</string>
+    <string name="error_empty_id">Enter Id</string>
+    <string name="storage_permission_denied">Storage Permissions not granted</string>
+    <string name="adMob">AdMob</string>
+    <string name="alarm_receiver">Alarm Service</string>
+    <string name="payu">PayU</string>
+    <!--Exit data logger-->
+    <!--Widget String -->
+    <string name="previous_month">Previous month</string>
+    <string name="next_month">Next month</string>
+    <!--End Widget-->
+    <string name="send">SEND</string>
+    <string name="resend_otp">Resend Otp</string>
+    <string name="OTP">OTP</string>
+    <string name="application_token">application_token</string>
+    <string name="emty_otp">Please Enter Otp.</string>
+    <string name="customerOTP">customerOTP</string>
+    <string name="tokenid">tokenid</string>
+    <string name="otp">otp</string>
+    <string name="no_network">No Internet Connection.</string>
+    <string name="user_emailid">user_emailid</string>
+    <string name="isLoggedOut">isLoggedOut</string>
+    <string name="use_live_key_in_production_environment">Please use your live merchant key in production environment</string>
+    <string name="production">Production</string>
+    <string name="more">More</string>
+    <string name="image_crop">Image Cropper</string>
+    <string name="upload_image">Crop and Upload Images</string>
+    <string name="alarm">Alarm Service</string>
+    <string name="scroll_tab">Scrolling Tab</string>
+    <string name="retry">Retry</string>
+    <string name="enable_location">Please Enable Location</string>
+    <string name="amount">Amount</string>
+    <string name="amount_ten">10</string>
+    <string name="environment">Environment</string>
+    <string name="merchant_key">Merchant Key</string>
+    <string name="image_load_success_msg">Image load successful</string>
+    <string name="image_load_failed_msg">"Image load failed: "</string>
+    <string name="load_img_failure_msg">Failed to load image by URI</string>
+    <string name="sample_size">SAMPLE_SIZE</string>
+    <string name="crop_img_fail_msg">Failed to crop image</string>
+    <string name="crop_image_failure_msg">"Image crop failed: "</string>
+    <string name="network_chart">Network Chart</string>
+    <string-array name="environment_array">
+        <item>@string/test</item>
+        <item>@string/production</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:weightSum="2"
+>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.7"
+        android:src="@mipmap/ic_launcher"
+        android:id="@+id/imageView" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3">
+
+        <com.github.skydoves.ElasticButton
+            android:id="@+id/btn_nav_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            app:button_backgroundColor="@color/colorPrimaryDark"
+            app:button_duration="400"
+            app:button_labelColor="@color/white"
+            app:button_labelSize="14"
+            app:button_labelStyle="bold"
+            app:button_labelText="Navigation \n Drawer" />
+
+
+        <com.github.skydoves.ElasticButton
+            android:id="@+id/btn_bottom_nav"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            app:button_backgroundColor="@color/colorPrimaryDark"
+            app:button_duration="400"
+            app:button_labelColor="@color/white"
+            app:button_labelSize="14"
+            app:button_labelStyle="bold"
+            app:button_labelText="Bottom \n Navigation" />
+    </RelativeLayout>
+
+</LinearLayout>

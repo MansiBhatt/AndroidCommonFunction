@@ -1,0 +1,101 @@
+apply plugin: 'com.android.application'
+apply plugin: 'realm-android'
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+    allprojects {
+        repositories {
+            maven {
+                url "https://jitpack.io"
+            }
+
+        }
+    }
+    defaultConfig {
+        applicationId "com.integratingdemo"
+        minSdkVersion 19
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        vectorDrawables.useSupportLibrary = true
+        multiDexEnabled true
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:25.1.1'
+    //Appcompat Library
+    compile 'com.android.support:design:25.2.0'
+    //Android support design Libray
+    compile 'com.android.support:recyclerview-v7:25.2.0'
+    compile 'com.jakewharton:butterknife:8.5.1'
+    //ButterKnife
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
+    //Butterknife dependency
+    compile 'ch.acra:acra:4.9.0'
+    //Acra tool for crash reporting
+    compile 'com.android.support:multidex:1.0.1'
+    //Multidex
+    compile 'com.afollestad:easyvideoplayer:0.3.0'
+    //Video Player
+    /*Google Play Service Dependencies*/
+    compile 'com.google.android.gms:play-services-auth:10.2.0'
+    compile 'com.google.android.gms:play-services:10.2.0'
+    compile 'com.google.android.gms:play-services-location:10.2.0'
+    compile 'com.google.android.gms:play-services-maps:10.2.0'
+    /*End of Google play service dependencies*/
+    // compile 'com.paypal.sdk:paypal-android-sdk:2.15.2' //paypal
+    /*Stetho library is used to view realm files on Chrome*/
+    compile 'com.uphyca:stetho_realm:2.0.0'
+    compile 'com.facebook.stetho:stetho:1.4.1'
+    /*End of Stetho*/
+    compile 'com.ToxicBakery.viewpager.transforms:view-pager-transforms:1.2.32@aar'
+    //Jazzy View Pager
+    compile 'com.github.skydoves:elasticviews:1.0.5'
+    //Elastic Buttons
+    compile 'com.mukesh:permissions:1.0.4'
+    //Marshmallow Permissions
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    //Image Loading tool Glide
+    compile 'com.github.nguyenhoanglam:ProgressLayout:1.0.1'
+    //Pull to refresh
+    compile 'com.facebook.android:facebook-android-sdk:4.7.0'
+    //FB sdk
+    compile files('libs/twitter4j-core-4.0.2.jar')
+    //Twiiter libs
+    compile 'com.github.PhilJay:MPAndroidChart:v3.0.1'
+    //MP Chart
+    compile 'com.github.hujiaweibujidao:wava:1.0.0'
+    //Splash Animation
+    compile 'com.android.volley:volley:1.0.0'
+    //volley
+    compile 'com.cocosw:bottomsheet:1.+@aar'
+    //bottomsheet
+    compile 'com.google.code.gson:gson:2.7'
+    //scrolling tab
+    testCompile 'junit:junit:4.12'
+    compile 'com.mikhaellopez:circularimageview:3.0.2'
+    compile 'com.theartofdev.edmodo:android-image-cropper:2.3.1'
+    //image cropper
+    compile 'com.tapadoo.android:alerter:1.0.0'
+    compile project(':sdkui')
+    compile 'com.github.matthiasrobbers:shortbread:1.0.0'
+    annotationProcessor 'com.github.matthiasrobbers:shortbread-compiler:1.0.0'
+    compile 'com.google.maps.android:android-maps-utils:0.5'
+}
